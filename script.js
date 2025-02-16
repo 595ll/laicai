@@ -16,7 +16,7 @@ yesButton.innerText = '上贡' + count + 'rmb'
 
 // No 按钮点击事件
 noButton.addEventListener("click", function () {
-    window.alert('点到也没用 嘻嘻！')
+    window.confirm('点到也没用 嘻嘻！')
 })
 
 // 为目标元素添加鼠标悬停事件监听器
